@@ -5,10 +5,22 @@ This repository contains a deep learning project to predict drug-target binding 
 ---
 
 ## Project Structure
-``` drug-target-dta/
+```drug-target-dta/
 ├─ data/
 │ └─ kiba.csv # Dataset containing SMILES, protein sequences, and affinity values
-├─ src/ │
-├─ __init__.py
-│ ├─ config.py # Configuration parameters │
-├─ dataset.py # Dataset processing and tokenization │ ├─ model.py # Deep learning model definition │ ├─ train.py # Training script │ ├─ evaluate.py # Model evaluation script │ └─ utils.py # Utility functions ├─ outputs/ │ ├─ models/ │ │ └─ best_model.pt # Trained model checkpoint │ └─ logs/ # Training logs and metrics ├─ requirements.txt # Python dependencies ├─ README.md # Project documentation └─ run.sh # Shell script to run training/evaluation ```
+├─ src/
+│ ├─ init.py
+│ ├─ config.py # Configuration parameters
+│ ├─ dataset.py # Dataset processing and tokenization
+│ ├─ model.py # Deep learning model definition
+│ ├─ train.py # Training script
+│ ├─ evaluate.py # Model evaluation script
+│ └─ utils.py # Utility functions
+├─ outputs/
+│ ├─ models/
+│ │ └─ best_model.pt # Trained model checkpoint
+│ └─ logs/ # Training logs and metrics
+├─ requirements.txt # Python dependencies
+├─ README.md # Project documentation
+└─ run.sh # Shell script to run training/evaluation
+```
